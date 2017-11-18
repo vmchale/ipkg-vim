@@ -1,4 +1,4 @@
-syntax keyword ipkgKeyword sourceloc pkgs modules tests bugtracker sourcedir brief version readme license author maintainer homepage opts executable makefile libs objs tests
+syntax keyword ipkgKeyword sourceloc pkgs modules tests bugtracker sourcedir main brief version readme license author maintainer homepage opts executable makefile libs objs tests
 syntax region packageName start=/\vpackage/ end=/\v$/
 syntax match ipkgComment "\v--.*$" contains=@Spell
 
